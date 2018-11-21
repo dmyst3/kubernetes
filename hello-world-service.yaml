@@ -1,5 +1,5 @@
-kind: Service
 apiVersion: v1
+kind: Service
 metadata:
   name: ahmad-service
 spec:
@@ -8,4 +8,5 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    nodePort: 31528
+    targetPort: 31528
+  type: NodePort

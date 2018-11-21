@@ -1,5 +1,5 @@
-kind: Endpoints
 apiVersion: v1
+kind: Endpoints
 metadata:
   name: ahmad-endpoint
 subsets:
