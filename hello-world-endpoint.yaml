@@ -1,7 +1,7 @@
 kind: Endpoints
 apiVersion: v1
 metadata:
-  name: ahmad-service
+  name: ahmad-endpoint
 subsets:
   - addresses:
       - ip: 1.2.3.4
