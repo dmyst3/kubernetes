@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ahmad-app
+  labels:
+    app: http_helloworld
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: http_helloworld
+  template:
+    metadata:
+      labels:
+        app: http_helloworld
+    spec:
+      containers:
+      - name: tutum
+        image: tutum/hello-world
+        ports:
+        - containerPort: 80
