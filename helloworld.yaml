@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Ahmad-HelloWorld-Deployment
+  name: ahmad-helloworld-deployment
   labels:
     app: http_helloworld
 spec:
