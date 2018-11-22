@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ahmad-ingress
+spec:
+  backend:
+    serviceName: ahmad_http
+    servicePort: 80
