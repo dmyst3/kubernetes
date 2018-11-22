@@ -4,5 +4,5 @@ metadata:
   name: ahmad-ingress
 spec:
   backend:
-    serviceName: ahmad_http
+    serviceName: ahmadhttp
     servicePort: 80
