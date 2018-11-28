@@ -15,7 +15,7 @@ spec:
         app: http_helloworld
     spec:
       containers:
-      - name: tutum
-        image: tutum/hello-world
+      - name: webserver
+        image: abacchus/apache:v1.0.0
         ports:
         - containerPort: 80
